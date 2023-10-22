@@ -13,7 +13,7 @@ const firebaseConfig = {
 };
 
 // Check if any Firebase apps have been initialized, if not, initialize Firebase app
-const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
+export const app = getApps().length ? getApp() : initializeApp(firebaseConfig);
 
 const db = getFirestore(app);
 const auth = getAuth(app);
