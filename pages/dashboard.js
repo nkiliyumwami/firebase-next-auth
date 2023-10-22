@@ -10,8 +10,8 @@ import {
   deleteDoc,
 } from "@firebase/firestore";
 import { getAuth, signOut } from "@firebase/auth";
-import app from "/firebase"; // Adjust the path accordingly
-import { db } from "/firebase"; // Adjust the path to your firebase config file
+import app from "../firebase"; // Adjust the path accordingly
+import { db } from "../firebase"; // Adjust the path to your firebase config file
 
 function Dashboard() {
   const [users, setUsers] = useState([]);
