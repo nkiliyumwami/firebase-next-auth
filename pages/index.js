@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
-import app from "../firebase";
+import { app } from "../firebase";
 import { getAuth, onAuthStateChanged } from "@firebase/auth";
 import LoginForm from "@/components/LoginForm";
 import SignUpForm from "@/components/SignUpForm";
